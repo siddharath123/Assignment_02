@@ -1,0 +1,118 @@
+/* univrsal operator */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* for responsive font size */
+html{
+    font-size: 62.5%;
+    /* means 1rem = 10px */
+}
+
+/* full page color  */
+body{
+    background: #F5EDF0;
+}
+
+/* ---------------main-header------------- */
+header, .main-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 3.5rem 1.5rem;
+}
+/* main-header logo  */
+.logo{
+    height: 4rem;
+    margin: 0rem 2rem;
+
+}
+
+
+/* --------------------header navbar---------------- */
+.navbar{
+    
+    margin-right: 55rem;
+    margin-top: 1rem;
+}
+/* ul--list */
+ul , .ul-list{
+    display: flex;
+    justify-content: space-between; 
+}
+/* li--list */
+li , .li-list{
+    list-style: none;
+}
+/* nav--anchor */
+a,.nav-anchor{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0rem .8rem;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------- main-button------------ */
+
+button , .header-btn{
+    background-color: rgb(119, 13, 218);
+    color: white;
+    width: 10rem;
+    border-radius: 1rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+/* -------------hero-section------------- */
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    margin: 3.5rem .5rem;
+}
+
+/* ----main content---- */
+.main-content{
+     /* margin: 4rem 0rem; */
+     margin-top: 8rem;
+}
+
+h1 , .content-heading{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 10rem; */   
+}
+
+.crush{
+    display: inline;
+    color: blue;
+}
+
+/* content para */
+.content-para{
+    margin: 2rem 2rem;
+    font-size: 1.2rem;
+    color: rgba(78, 67, 67, 0.929);
+    margin-left: .5rem;
+}
+
+/* content button */
+.content-button{
+    background-color: rgb(119, 13, 218);
+    color: white;
+    width: 12rem;
+    padding: 1.2rem 0rem;
+    border-radius: 1rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+/* ---hero-section-img----- */
+.hero-section-img {
+           height: 45rem;
+}
+
+
+
